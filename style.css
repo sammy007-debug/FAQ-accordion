@@ -75,7 +75,8 @@ h5 {
 
 .accordion {
   display: flex;
-  background-color: indianred;
+  background-color: chocolate;
+
   cursor: pointer;
   width: 15rem;
 }
@@ -86,10 +87,14 @@ h5 {
   transition: all 0.5s ease-in;
 }
 
-.active {
+.active,
+#icon {
   background: url(/images/output-onlinepngtools.png) no-repeat right;
   transition: all 0.5s ease-in;
   color: black;
+}
+p {
+  padding-bottom: 10px;
 }
 
 .panel {
